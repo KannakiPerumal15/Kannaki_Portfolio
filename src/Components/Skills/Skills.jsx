@@ -6,7 +6,7 @@ import Java from '../../assets/Java.png';
 import ExpressJs from '../../assets/ExpressJs.png';
 import NestJs from '../../assets/NestJs.png';
 import Html from '../../assets/Html.png';
-import CSS from '../../assets/Css.png';
+import CSS from '../../assets/CSS.png';
 import ReactJs from '../../assets/React.png';
 import Angular from '../../assets/Angular.png';
 import Electron from '../../assets/Electron.webp';
