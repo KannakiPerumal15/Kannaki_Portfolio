@@ -1,0 +1,241 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 80px 350px; 
+}
+
+.experience-title {
+    position: relative;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.experience-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 800px; 
+}
+
+.experience-item {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.experience-date {
+    flex: 1; 
+    font-size: 18px;
+    color: #a8a8a8; 
+}
+
+.experience-details {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-role {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.experience-company {
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(270deg, #df8908 50.41%, #B415FF 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #c7c7c7; 
+}
+
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #2b2b2b; 
+    color: #B415FF; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.tag:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 80px 350px;
+}
+
+.experience-title {
+    position: relative;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.experience-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.experience-item {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.experience-date {
+    flex: 1;
+    font-size: 18px;
+    color: #a8a8a8;
+}
+
+.experience-details {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience-role {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.experience-company {
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(270deg, #df8908 50.41%, #B415FF 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.experience-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #c7c7c7;
+}
+
+.experience-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #2b2b2b;
+    color: #B415FF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.tag:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-container {
+        margin: 20px 70px;
+        gap: 30px;
+    }
+
+    .experience-title {
+        font-size: 50px;
+    }
+
+    .experience-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .experience-date {
+        font-size: 18px;
+    }
+
+    .experience-role {
+        font-size: 22px;
+    }
+
+    .experience-description {
+        font-size: 18px;
+    }
+
+    .experience-tags {
+        gap: 8px;
+    }
+
+    .tag {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
+@media screen and (max-width: 370px) {
+    .experience-container {
+        margin: 20px 50px;
+        gap: 30px;
+    }
+
+    .experience-title {
+        font-size: 40px;
+    }
+
+    .experience-item {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .experience-date {
+        font-size: 18px;
+    }
+
+    .experience-role {
+        font-size: 22px;
+    }
+    
+    .experience-description {
+        font-size: 16px;
+    }
+
+    .experience-tags {
+        gap: 8px;
+    }
+
+    .tag {
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
